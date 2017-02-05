@@ -21,7 +21,7 @@ document.getElementById('mapcredits').addEventListener('click', function () {
 });
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://red-meteor.com/games');
+xhr.open('GET', 'https://red-meteor.com/mlb/games');
 xhr.send(null);
 
 xhr.onreadystatechange = function () {
